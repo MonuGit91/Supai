@@ -1,0 +1,423 @@
+2024-10-24 18:34:05 INFO  com.supai.app.Application - Starting Application using Java 21.0.3 with PID 9916 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-24 18:34:05 INFO  com.supai.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-10-24 18:34:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-24 18:34:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:34:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-24 18:34:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24 18:34:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-24 18:34:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1700 ms
+2024-10-24 18:34:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:34:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-24 18:34:07 INFO  com.supai.app.Application - Started Application in 3.083 seconds (process running for 3.964)
+2024-10-24 18:34:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 18:34:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-24 18:34:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-24 18:34:39 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:34:39 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Demo
+2024-10-24 18:34:40 ERROR c.supai.app.services.common.JsonObj - Error downloading document with id: 568284 and name: Demo
+java.lang.RuntimeException: Exception during Gdrive AccessToken update: 
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:68)
+	at com.supai.app.services.gdrive.GdriveUploaderService.fetchSubFoldersWithRetry(GdriveUploaderService.java:212)
+	at com.supai.app.services.gdrive.GdriveUploaderService.getFolderIdFromGdrive(GdriveUploaderService.java:186)
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:119)
+	at com.supai.app.services.gdrive.GdriveUploaderService.parseAndUpload(GdriveUploaderService.java:87)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:41)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{<EOL>  "error": "invalid_grant",<EOL>  "error_description": "Token has been expired or revoked."<EOL>}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:53)
+	... 54 common frames omitted
+2024-10-24 18:34:41 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Exception during Gdrive AccessToken update: ] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{<EOL>  "error": "invalid_grant",<EOL>  "error_description": "Token has been expired or revoked."<EOL>}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:53)
+	at com.supai.app.services.gdrive.GdriveUploaderService.fetchSubFoldersWithRetry(GdriveUploaderService.java:212)
+	at com.supai.app.services.gdrive.GdriveUploaderService.getFolderIdFromGdrive(GdriveUploaderService.java:186)
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:119)
+	at com.supai.app.services.gdrive.GdriveUploaderService.parseAndUpload(GdriveUploaderService.java:106)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:41)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-24 18:50:47 INFO  com.supai.app.Application - Starting Application using Java 21.0.3 with PID 9532 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-24 18:50:47 INFO  com.supai.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-10-24 18:50:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-24 18:50:50 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:50:50 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-24 18:50:50 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24 18:50:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-24 18:50:50 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2381 ms
+2024-10-24 18:50:50 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:50:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-24 18:50:50 INFO  com.supai.app.Application - Started Application in 3.704 seconds (process running for 4.536)
+2024-10-24 18:51:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 18:51:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-24 18:51:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-24 18:51:14 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:51:14 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Demo
+2024-10-24 18:51:15 ERROR c.supai.app.services.common.JsonObj - Error downloading document with id: 568284 and name: Demo
+java.lang.RuntimeException: Exception during Gdrive AccessToken update: 
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:68)
+	at com.supai.app.services.gdrive.GdriveUploaderService.fetchSubFoldersWithRetry(GdriveUploaderService.java:212)
+	at com.supai.app.services.gdrive.GdriveUploaderService.getFolderIdFromGdrive(GdriveUploaderService.java:186)
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:119)
+	at com.supai.app.services.gdrive.GdriveUploaderService.parseAndUpload(GdriveUploaderService.java:87)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:41)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{<EOL>  "error": "invalid_grant",<EOL>  "error_description": "Token has been expired or revoked."<EOL>}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:53)
+	... 54 common frames omitted
+2024-10-24 18:51:16 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Exception during Gdrive AccessToken update: ] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{<EOL>  "error": "invalid_grant",<EOL>  "error_description": "Token has been expired or revoked."<EOL>}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:103)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at com.supai.app.services.gdrive.AccessToken.updateAccessToken(AccessToken.java:53)
+	at com.supai.app.services.gdrive.GdriveUploaderService.fetchSubFoldersWithRetry(GdriveUploaderService.java:212)
+	at com.supai.app.services.gdrive.GdriveUploaderService.getFolderIdFromGdrive(GdriveUploaderService.java:186)
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:119)
+	at com.supai.app.services.gdrive.GdriveUploaderService.parseAndUpload(GdriveUploaderService.java:106)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:41)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-24 18:51:58 INFO  com.supai.app.Application - Starting Application using Java 21.0.3 with PID 29672 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-24 18:51:58 INFO  com.supai.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-10-24 18:51:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-24 18:51:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:51:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-24 18:51:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24 18:52:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-24 18:52:00 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1680 ms
+2024-10-24 18:52:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-24 18:52:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-24 18:52:00 INFO  com.supai.app.Application - Started Application in 3.053 seconds (process running for 3.898)
+2024-10-24 18:52:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 18:52:06 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-24 18:52:06 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-24 18:52:16 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:52:16 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Demo
+2024-10-24 18:52:21 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 18:52:23 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 18:52:27 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 18:52:27 INFO  c.supai.app.services.common.JsonObj - Successfully uploaded document: Demo to GDrive
+2024-10-24 18:52:28 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:29 INFO  c.supai.app.services.common.JsonObj - Found folder: IT with id: 1YGgPbX7-2zTPqUQ1cFE2qAKcyrDHFqxa
+2024-10-24 18:52:29 INFO  c.supai.app.services.common.JsonObj - Document: Demo already present in GDrive folder: 1YGgPbX7-2zTPqUQ1cFE2qAKcyrDHFqxa
+2024-10-24 18:52:30 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:52:30 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Test Document1.docx
+2024-10-24 18:52:31 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:31 INFO  c.supai.app.services.common.JsonObj - Found folder: IT with id: 1YGgPbX7-2zTPqUQ1cFE2qAKcyrDHFqxa
+2024-10-24 18:52:35 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 18:52:35 INFO  c.supai.app.services.common.JsonObj - Successfully uploaded document: Test Document1.docx to GDrive
+2024-10-24 18:52:35 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:36 INFO  c.supai.app.services.common.JsonObj - Found folder: IT with id: 1YGgPbX7-2zTPqUQ1cFE2qAKcyrDHFqxa
+2024-10-24 18:52:37 INFO  c.supai.app.services.common.JsonObj - Document: Test Document1.docx already present in GDrive folder: 1YGgPbX7-2zTPqUQ1cFE2qAKcyrDHFqxa
+2024-10-24 18:52:38 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:52:38 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Test Document.docx
+2024-10-24 18:52:38 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:41 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 18:52:44 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 18:52:44 INFO  c.supai.app.services.common.JsonObj - Successfully uploaded document: Test Document.docx to GDrive
+2024-10-24 18:52:45 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:47 INFO  c.supai.app.services.common.JsonObj - Found folder: Software with id: 10Ch2WNLfzzPnxNT_hYQkGrp7QSx9mY_y
+2024-10-24 18:52:47 INFO  c.supai.app.services.common.JsonObj - Document: Test Document.docx already present in GDrive folder: 10Ch2WNLfzzPnxNT_hYQkGrp7QSx9mY_y
+2024-10-24 18:52:54 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 18:52:54 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-24 18:52:55 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:52:56 INFO  c.supai.app.services.common.JsonObj - Found folder: Software with id: 10Ch2WNLfzzPnxNT_hYQkGrp7QSx9mY_y
+2024-10-24 18:53:00 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 18:53:00 INFO  c.supai.app.services.common.JsonObj - Successfully uploaded document: SOAR Functional Design - xECM SF OpenText S012.docx to GDrive
+2024-10-24 18:53:01 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1PF986KYq0yqz0ZkgK0m26evQACgWNimc
+2024-10-24 18:53:02 INFO  c.supai.app.services.common.JsonObj - Found folder: Software with id: 10Ch2WNLfzzPnxNT_hYQkGrp7QSx9mY_y
+2024-10-24 18:53:03 INFO  c.supai.app.services.common.JsonObj - Document: SOAR Functional Design - xECM SF OpenText S012.docx already present in GDrive folder: 10Ch2WNLfzzPnxNT_hYQkGrp7QSx9mY_y
+2024-10-24 20:14:31 INFO  com.supai.app.Application - Starting Application using Java 21.0.3 with PID 17404 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-24 20:14:31 INFO  com.supai.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-10-24 20:14:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-24 20:14:33 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-24 20:14:33 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-24 20:14:33 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24 20:14:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-24 20:14:33 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1262 ms
+2024-10-24 20:14:33 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-24 20:14:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-24 20:14:33 INFO  com.supai.app.Application - Started Application in 2.259 seconds (process running for 3.157)
+2024-10-24 20:14:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 20:14:55 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-24 20:14:55 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-24 20:15:37 INFO  com.supai.app.Application - Starting Application using Java 21.0.3 with PID 14572 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-24 20:15:37 INFO  com.supai.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-10-24 20:15:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-24 20:15:38 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-24 20:15:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-24 20:15:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24 20:15:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-24 20:15:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1233 ms
+2024-10-24 20:15:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-24 20:15:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-24 20:15:39 INFO  com.supai.app.Application - Started Application in 2.112 seconds (process running for 2.766)
+2024-10-24 20:15:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 20:15:44 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-24 20:15:44 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-24 20:15:57 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:15:57 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 20:15:57 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:15:57 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Demo
+2024-10-24 20:16:02 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:02 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:05 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:06 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:07 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:09 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Test Document1.docx
+2024-10-24 20:16:11 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:11 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1ZshNPRfRPvfNkVVCqJlXHaswTdWzyD4T
+2024-10-24 20:16:11 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:11 INFO  c.supai.app.services.common.JsonObj - Found folder: IT with id: 1a6im2LYcJv7AUfF6CTzcIjVTztGECd1d
+2024-10-24 20:16:12 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:13 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:15 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: Test Document.docx
+2024-10-24 20:16:16 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:16 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1ZshNPRfRPvfNkVVCqJlXHaswTdWzyD4T
+2024-10-24 20:16:17 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:18 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:19 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:20 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:22 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 20:16:22 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:22 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:24 INFO  c.supai.app.services.common.JsonObj - downloading is successfull. Status: 200 OK
+2024-10-24 20:16:24 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:24 INFO  c.supai.app.services.common.JsonObj - Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-24 20:16:24 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:24 INFO  c.supai.app.services.common.JsonObj - Found folder: Procurement/Sourcing Contract Template with id: 1ZshNPRfRPvfNkVVCqJlXHaswTdWzyD4T
+2024-10-24 20:16:25 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:25 INFO  c.supai.app.services.common.JsonObj - Found folder: Software with id: 1CGJhbD1jzT7B4ufb3dl7o8yP8-G5TWnO
+2024-10-24 20:16:26 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:27 INFO  c.supai.app.services.common.JsonObj - success
+2024-10-24 20:16:29 INFO  c.supai.app.services.common.JsonObj - File uploaded successfully.
+2024-10-24 20:16:29 INFO  c.supai.app.services.common.JsonObj - success
