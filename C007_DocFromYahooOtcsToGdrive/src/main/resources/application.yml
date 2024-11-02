@@ -1,0 +1,28 @@
+otcs:
+   credentials:
+      auth-api: /api/v1/auth
+      username: Admin
+      password: L1vel1nk!
+      otcsticket: notCreated
+   category:
+      attr: Attr_749892_3
+      query-id: 754137
+   api:
+      base-url: http://192.168.1.237/otcs/cs.exe 
+      get-doc: /api/v1/nodes/{id}/content/{name}
+      search-docs: /api/v2/search
+     
+gdrive:
+   credentials:
+      client-id: Your Client Id
+      client-secret: Your Client Secret
+      grant-type: refresh_token
+      refresh-token: Your Refresh Token
+      access-token: notCreated
+   api:
+      access-token: https://oauth2.googleapis.com/token
+      resumable-upload: https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable
+      list-subfolders: https://www.googleapis.com/drive/v3/files
+      create-folder: https://www.googleapis.com/drive/v3/files
+   folder:
+      root-Supai: folder id where you want tu upload files
