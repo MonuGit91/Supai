@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.supai</groupId>
-	<artifactId>C006_DocFromYahooOtcsToGdrive</artifactId>
+	<artifactId>C007_DocFromYahooOtcsToGdrive</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Application</name>
 	<description>Demo project for uploading docs from otcs to gdrive without

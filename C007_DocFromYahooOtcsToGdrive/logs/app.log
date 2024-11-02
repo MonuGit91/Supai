@@ -1,0 +1,476 @@
+2024-10-30 11:42:43 INFO  - Starting Application using Java 21.0.3 with PID 18016 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 11:42:43 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 11:42:45 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 11:42:45 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:42:45 INFO  - Starting service [Tomcat]
+2024-10-30 11:42:45 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 11:42:45 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 11:42:45 INFO  - Root WebApplicationContext: initialization completed in 1277 ms
+2024-10-30 11:42:45 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:42:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 11:42:45 INFO  - Started Application in 2.275 seconds (process running for 2.932)
+2024-10-30 11:43:08 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 11:43:08 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 11:43:08 INFO  - Completed initialization in 9 ms
+2024-10-30 11:43:11 INFO  - Success: searching docs successfull
+2024-10-30 11:44:05 INFO  - Success: searching docs successfull
+2024-10-30 11:49:25 INFO  - Starting Application using Java 21.0.3 with PID 22036 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 11:49:25 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 11:49:26 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 11:49:26 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:49:26 INFO  - Starting service [Tomcat]
+2024-10-30 11:49:26 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 11:49:26 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 11:49:26 INFO  - Root WebApplicationContext: initialization completed in 1342 ms
+2024-10-30 11:49:27 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:49:27 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 11:49:27 INFO  - Started Application in 2.37 seconds (process running for 3.353)
+2024-10-30 11:49:36 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 11:49:36 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 11:49:36 INFO  - Completed initialization in 1 ms
+2024-10-30 11:49:39 INFO  - Success: searching docs successfull
+2024-10-30 11:51:39 INFO  - Starting Application using Java 21.0.3 with PID 7680 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 11:51:39 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 11:51:40 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 11:51:40 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:51:40 INFO  - Starting service [Tomcat]
+2024-10-30 11:51:40 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 11:51:40 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 11:51:40 INFO  - Root WebApplicationContext: initialization completed in 1317 ms
+2024-10-30 11:51:41 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:51:41 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 11:51:41 INFO  - Started Application in 2.3 seconds (process running for 3.404)
+2024-10-30 11:51:44 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 11:51:44 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 11:51:44 INFO  - Completed initialization in 2 ms
+2024-10-30 11:51:46 INFO  - Success: searching docs successfull
+2024-10-30 11:52:50 INFO  - Starting Application using Java 21.0.3 with PID 11896 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 11:52:50 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 11:52:51 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 11:52:51 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:52:51 INFO  - Starting service [Tomcat]
+2024-10-30 11:52:51 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 11:52:51 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 11:52:51 INFO  - Root WebApplicationContext: initialization completed in 1264 ms
+2024-10-30 11:52:52 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:52:52 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 11:52:52 INFO  - Started Application in 2.219 seconds (process running for 3.216)
+2024-10-30 11:52:55 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 11:52:55 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 11:52:55 INFO  - Completed initialization in 1 ms
+2024-10-30 11:52:57 INFO  - Success: searching docs successfull
+2024-10-30 11:54:13 INFO  - Starting Application using Java 21.0.3 with PID 15228 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 11:54:13 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 11:54:14 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 11:54:14 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:54:14 INFO  - Starting service [Tomcat]
+2024-10-30 11:54:14 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 11:54:14 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 11:54:14 INFO  - Root WebApplicationContext: initialization completed in 1343 ms
+2024-10-30 11:54:15 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 11:54:15 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 11:54:15 INFO  - Started Application in 2.353 seconds (process running for 3.249)
+2024-10-30 11:54:19 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 11:54:19 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 11:54:19 INFO  - Completed initialization in 3 ms
+2024-10-30 11:54:21 INFO  - Success: searching docs successfull
+2024-10-30 12:10:26 INFO  - Starting Application using Java 21.0.3 with PID 12956 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 12:10:26 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 12:10:28 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 12:10:28 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 12:10:28 INFO  - Starting service [Tomcat]
+2024-10-30 12:10:28 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 12:10:28 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 12:10:28 INFO  - Root WebApplicationContext: initialization completed in 1719 ms
+2024-10-30 12:10:29 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 12:10:29 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 12:10:29 INFO  - Started Application in 2.804 seconds (process running for 3.554)
+2024-10-30 12:12:12 INFO  - Starting Application using Java 21.0.3 with PID 24484 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 12:12:12 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 12:12:14 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 12:12:14 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 12:12:14 INFO  - Starting service [Tomcat]
+2024-10-30 12:12:14 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 12:12:14 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 12:12:14 INFO  - Root WebApplicationContext: initialization completed in 1950 ms
+2024-10-30 12:12:15 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 12:12:15 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 12:12:15 INFO  - Started Application in 3.609 seconds (process running for 4.857)
+2024-10-30 12:12:25 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 12:12:25 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 12:12:25 INFO  - Completed initialization in 1 ms
+2024-10-30 12:12:28 INFO  - Success: searching docs successfull
+2024-10-30 12:12:29 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 12:12:33 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:12:33 INFO  - Success: Folder Software already exist: 
+2024-10-30 12:12:34 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 12:12:34 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 12:12:35 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:12:35 INFO  - Success: Folder IT already exist: 
+2024-10-30 12:12:36 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 12:12:36 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 12:12:37 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:12:37 INFO  - Success: Folder Software already exist: 
+2024-10-30 12:12:38 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 12:12:59 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 12:13:00 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:13:00 INFO  - Success: Folder Content & Royalties already exist: 
+2024-10-30 12:13:01 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 12:13:02 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 12:13:03 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:13:03 INFO  - Success: Folder Software already exist: 
+2024-10-30 12:13:04 INFO  - Success: checking doc: pic exist or not
+2024-10-30 12:13:07 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 12:13:08 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 12:13:08 INFO  - Success: Folder Software already exist: 
+2024-10-30 12:13:08 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 14:07:22 INFO  - Starting Application using Java 21.0.3 with PID 21404 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 14:07:22 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 14:07:24 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 14:07:24 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 14:07:24 INFO  - Starting service [Tomcat]
+2024-10-30 14:07:24 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 14:07:25 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 14:07:25 INFO  - Root WebApplicationContext: initialization completed in 2180 ms
+2024-10-30 14:07:26 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 14:07:26 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 14:07:26 INFO  - Started Application in 3.922 seconds (process running for 4.733)
+2024-10-30 14:07:32 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 14:07:32 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 14:07:32 INFO  - Completed initialization in 1 ms
+2024-10-30 14:07:37 INFO  - Success: searching docs successfull
+2024-10-30 14:07:38 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 14:07:42 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:07:42 INFO  - Success: Folder Software already exist: 
+2024-10-30 14:07:43 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 14:07:44 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 14:07:44 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:07:44 INFO  - Success: Folder IT already exist: 
+2024-10-30 14:07:45 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 14:07:46 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 14:07:47 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:07:47 INFO  - Success: Folder Software already exist: 
+2024-10-30 14:07:48 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 14:07:54 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 14:07:55 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:07:55 INFO  - Success: Folder Content & Royalties already exist: 
+2024-10-30 14:07:56 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 14:07:56 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 14:07:57 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:07:57 INFO  - Success: Folder Software already exist: 
+2024-10-30 14:07:57 INFO  - Success: checking doc: pic exist or not
+2024-10-30 14:07:59 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 14:08:00 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:08:00 INFO  - Success: Folder Software already exist: 
+2024-10-30 14:08:01 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 14:28:28 INFO  - Starting Application using Java 21.0.3 with PID 22976 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 14:28:28 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 14:28:30 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 14:28:30 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 14:28:30 INFO  - Starting service [Tomcat]
+2024-10-30 14:28:30 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 14:28:30 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 14:28:30 INFO  - Root WebApplicationContext: initialization completed in 1900 ms
+2024-10-30 14:28:31 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 14:28:31 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 14:28:31 INFO  - Started Application in 3.169 seconds (process running for 4.027)
+2024-10-30 14:28:57 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 14:28:57 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 14:28:57 INFO  - Completed initialization in 0 ms
+2024-10-30 14:28:59 INFO  - Success: searching docs successfull
+2024-10-30 14:28:59 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 14:29:02 ERROR - Faild: to fetch sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh - class com.fasterxml.jackson.databind.node.ObjectNode cannot be cast to class org.springframework.http.ResponseEntity (com.fasterxml.jackson.databind.node.ObjectNode and org.springframework.http.ResponseEntity are in unnamed module of loader 'app')
+2024-10-30 14:29:02 WARN  - Warn: No subfolders found in root folderId: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 14:29:02 ERROR - Faild: checking doc: Test Document1.docx exist or not - 404 Not Found: "{<EOL>  "error": {<EOL>    "code": 404,<EOL>    "message": "File not found: .",<EOL>    "errors": [<EOL>      {<EOL>        "message": "File not found: .",<EOL>        "domain": "global",<EOL>        "reason": "notFound",<EOL>        "location": "fileId",<EOL>        "locationType": "parameter"<EOL>      }<EOL>    ]<EOL>  }<EOL>}<EOL>"
+2024-10-30 14:29:02 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.supai.app.services.gdrive.GdriveUploaderService.retryIfUnauthorizedGdrive(java.util.concurrent.Callable, String, String)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "com.supai.app.services.gdrive.GdriveUploaderService.retryIfUnauthorizedGdrive(java.util.concurrent.Callable, String, String)" is null
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:75)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:61)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-30 15:19:43 INFO  - Starting Application using Java 21.0.3 with PID 6868 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 15:19:43 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 15:19:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 15:19:44 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:19:44 INFO  - Starting service [Tomcat]
+2024-10-30 15:19:44 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 15:19:45 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 15:19:45 INFO  - Root WebApplicationContext: initialization completed in 1136 ms
+2024-10-30 15:19:45 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:19:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 15:19:45 INFO  - Started Application in 2.022 seconds (process running for 2.618)
+2024-10-30 15:19:51 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 15:19:51 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 15:19:51 INFO  - Completed initialization in 1 ms
+2024-10-30 15:19:53 INFO  - Success: searching docs successfull
+2024-10-30 15:19:53 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 15:19:55 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:19:55 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:19:56 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 15:19:56 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 15:19:57 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:19:57 INFO  - Success: Folder IT already exist: 
+2024-10-30 15:19:57 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 15:19:58 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 15:19:59 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:19:59 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:20:00 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 15:20:25 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 15:20:26 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:20:26 INFO  - Success: Folder Content & Royalties already exist: 
+2024-10-30 15:20:27 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 15:20:28 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 15:20:28 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:20:28 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:20:29 INFO  - Success: checking doc: pic exist or not
+2024-10-30 15:20:33 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:20:33 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:20:33 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:20:34 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 15:22:58 INFO  - Success: searching docs successfull
+2024-10-30 15:22:59 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 15:23:00 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:23:02 INFO  - Success: created Folder(Software)
+2024-10-30 15:23:02 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 15:23:03 INFO  - Success: got upload url for doc: Test Document1.docx
+2024-10-30 15:23:03 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.springframework.http.HttpHeaders.getLocation()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.springframework.http.HttpHeaders.getLocation()" is null
+	at com.supai.app.services.gdrive.GdriveUploaderService.uploadToGdrive(GdriveUploaderService.java:88)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:61)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-30 15:27:43 INFO  - Starting Application using Java 21.0.3 with PID 21576 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 15:27:43 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 15:27:44 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 15:27:44 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:27:44 INFO  - Starting service [Tomcat]
+2024-10-30 15:27:44 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 15:27:45 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 15:27:45 INFO  - Root WebApplicationContext: initialization completed in 1146 ms
+2024-10-30 15:27:45 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:27:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 15:27:45 INFO  - Started Application in 1.983 seconds (process running for 2.612)
+2024-10-30 15:27:50 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 15:27:50 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 15:27:50 INFO  - Completed initialization in 0 ms
+2024-10-30 15:27:51 INFO  - Success: searching docs successfull
+2024-10-30 15:27:51 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 15:27:53 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:27:55 INFO  - Success: created Folder(Software)
+2024-10-30 15:27:55 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 15:27:56 INFO  - Success: got upload url for doc: Test Document1.docx
+2024-10-30 15:27:58 INFO  - Success: uplading doc: Test Document1.docx
+2024-10-30 15:27:59 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 15:28:00 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:28:03 INFO  - Success: created Folder(IT)
+2024-10-30 15:28:04 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 15:28:05 INFO  - Success: got upload url for doc: Demo
+2024-10-30 15:28:07 INFO  - Success: uplading doc: Demo
+2024-10-30 15:28:07 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 15:28:08 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:28:08 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:28:09 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 15:28:10 INFO  - Success: got upload url for doc: Test Document.docx
+2024-10-30 15:28:12 INFO  - Success: uplading doc: Test Document.docx
+2024-10-30 15:28:44 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 15:28:45 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:28:47 INFO  - Success: created Folder(Content & Royalties)
+2024-10-30 15:28:47 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 15:28:48 INFO  - Success: got upload url for doc: TDS-Creation_V2.pdf
+2024-10-30 15:28:54 INFO  - Success: uplading doc: TDS-Creation_V2.pdf
+2024-10-30 15:28:55 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 15:28:55 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:28:55 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:28:56 INFO  - Success: checking doc: pic exist or not
+2024-10-30 15:28:57 INFO  - Success: got upload url for doc: pic
+2024-10-30 15:29:00 INFO  - Success: uplading doc: pic
+2024-10-30 15:29:02 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:29:03 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:29:03 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:29:04 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 15:29:05 INFO  - Success: got upload url for doc: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:29:08 INFO  - Success: uplading doc: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:34:30 INFO  - Starting Application using Java 21.0.3 with PID 15036 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 15:34:30 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 15:34:31 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 15:34:31 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:34:31 INFO  - Starting service [Tomcat]
+2024-10-30 15:34:31 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 15:34:31 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 15:34:31 INFO  - Root WebApplicationContext: initialization completed in 1295 ms
+2024-10-30 15:34:32 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:34:32 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 15:34:32 INFO  - Started Application in 2.257 seconds (process running for 2.98)
+2024-10-30 15:34:43 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 15:34:43 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 15:34:43 INFO  - Completed initialization in 1 ms
+2024-10-30 15:34:44 INFO  - Success: searching docs successfull
+2024-10-30 15:34:45 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 15:34:47 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:34:47 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:34:48 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 15:34:49 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 15:34:49 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:34:49 INFO  - Success: Folder IT already exist: 
+2024-10-30 15:34:50 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 15:34:50 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 15:34:52 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:34:52 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:34:53 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 15:35:17 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 15:35:18 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:35:18 INFO  - Success: Folder Content & Royalties already exist: 
+2024-10-30 15:35:18 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 15:35:20 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 15:35:21 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:35:21 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:35:21 INFO  - Success: checking doc: pic exist or not
+2024-10-30 15:35:30 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:35:31 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:35:31 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:35:31 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 15:37:39 INFO  - Starting Application using Java 21.0.3 with PID 24416 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-30 15:37:39 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 15:37:41 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-30 15:37:41 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:37:41 INFO  - Starting service [Tomcat]
+2024-10-30 15:37:41 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 15:37:41 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-30 15:37:41 INFO  - Root WebApplicationContext: initialization completed in 1281 ms
+2024-10-30 15:37:41 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 15:37:41 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 15:37:41 INFO  - Started Application in 2.251 seconds (process running for 2.887)
+2024-10-30 15:38:22 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 15:38:22 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-30 15:38:22 INFO  - Completed initialization in 1 ms
+2024-10-30 15:38:23 INFO  - Success: searching docs successfull
+2024-10-30 15:38:23 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-30 15:38:25 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:38:27 INFO  - Success: created Folder(Software)
+2024-10-30 15:38:27 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-30 15:38:28 INFO  - Success: got upload url for doc: Test Document1.docx
+2024-10-30 15:38:30 INFO  - Success: uplading doc: Test Document1.docx
+2024-10-30 15:38:31 INFO  - Success: Document downloaded successfully: Demo
+2024-10-30 15:38:31 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:38:33 INFO  - Success: created Folder(IT)
+2024-10-30 15:38:34 INFO  - Success: checking doc: Demo exist or not
+2024-10-30 15:38:35 INFO  - Success: got upload url for doc: Demo
+2024-10-30 15:38:37 INFO  - Success: uplading doc: Demo
+2024-10-30 15:38:37 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-30 15:38:38 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:38:38 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:38:39 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-30 15:38:40 INFO  - Success: got upload url for doc: Test Document.docx
+2024-10-30 15:38:42 INFO  - Success: uplading doc: Test Document.docx
+2024-10-30 15:39:14 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-30 15:39:16 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:39:17 INFO  - Success: created Folder(Content & Royalties)
+2024-10-30 15:39:18 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-30 15:39:19 INFO  - Success: got upload url for doc: TDS-Creation_V2.pdf
+2024-10-30 15:39:26 INFO  - Success: uplading doc: TDS-Creation_V2.pdf
+2024-10-30 15:39:27 INFO  - Success: Document downloaded successfully: pic
+2024-10-30 15:39:28 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:39:28 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:39:28 INFO  - Success: checking doc: pic exist or not
+2024-10-30 15:39:29 INFO  - Success: got upload url for doc: pic
+2024-10-30 15:39:32 INFO  - Success: uplading doc: pic
+2024-10-30 15:39:35 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:39:35 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-30 15:39:35 INFO  - Success: Folder Software already exist: 
+2024-10-30 15:39:36 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-30 15:39:37 INFO  - Success: got upload url for doc: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-30 15:39:40 INFO  - Success: uplading doc: SOAR Functional Design - xECM SF OpenText S012.docx

@@ -5,7 +5,6 @@ import java.net.URI;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
@@ -17,26 +16,20 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.supai.app.config.GdriveApiConfig;
 import com.supai.app.config.GdriveCredentials;
-import com.supai.app.services.common.JsonObj;
 
 import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @Component
 @RequiredArgsConstructor
-public class GdriveApiCaller {
-	private static final Logger log = LoggerFactory.getLogger(JsonObj.class);
-	
-	private final JsonObj jsonObj;
+public class GdriveApiCaller {	
 	private final RestTemplate restTemplate;
 	private final GdriveCredentials gdriveCredentials;
 	private final GdriveApiConfig gdriveApiConfig;
 	private final ObjectMapper objectMapper;
 
-	public JsonNode listSubFolders(String rootFolderId) throws Exception {
+	public ResponseEntity<String> listSubFolders(String rootFolderId) throws Exception {
 		// Build the query parameters safely using UriComponentsBuilder
-		String url = gdriveApiConfig.getListSubfolders();// "https://www.googleapis.com/drive/v3/files";
+		String url = gdriveApiConfig.getListSubfolders();
 		String baseQueryParam = "mimeType='application/vnd.google-apps.folder' and 'folderId' in parents and trashed=false";
 
 		URI finalUrl = UriComponentsBuilder.fromHttpUrl(url)
@@ -52,11 +45,10 @@ public class GdriveApiCaller {
 
 		ResponseEntity<String> response = restTemplate.exchange(finalUrl, HttpMethod.GET, entity, String.class);
 
-		// Return the response body as a String
-		return jsonObj.getJson(response.getBody());
+		return response;
 	}
 
-	public JsonNode createFolder(String folderName, String rootFolderId) throws Exception {
+	public ResponseEntity<String> createFolder(String folderName, String rootFolderId) throws Exception {
 		String url = gdriveApiConfig.getCreateFolder();// "https://www.googleapis.com/drive/v3/files";
 
 		// Build JSON request body using ObjectNode
@@ -73,11 +65,10 @@ public class GdriveApiCaller {
 		HttpEntity<JsonNode> requestEntity = new HttpEntity<>(requestBody, headers);
 		ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, requestEntity, String.class);
 
-		// Return the parsed JSON response
-		return jsonObj.getJson(response.getBody()); // The response body contains the created folder details
+		return response;
 	}
 
-	public JsonNode uploadFileContent(String uploadUrl, ResponseEntity<byte[]> response) throws Exception {
+	public ResponseEntity<String> uploadFileContent(String uploadUrl, ResponseEntity<byte[]> response) throws Exception {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
 		headers.setBearerAuth(gdriveCredentials.getAccessToken()); // Bearer token for Authorization
@@ -90,19 +81,12 @@ public class GdriveApiCaller {
 		ResponseEntity<String> uploadResponse = restTemplate.exchange(uploadUrl, HttpMethod.PUT, requestEntity,
 				String.class);
 
-		if (uploadResponse.getStatusCode() == HttpStatus.OK || uploadResponse.getStatusCode() == HttpStatus.CREATED) {
-			log.info("File uploaded successfully.");
-			return jsonObj.getJson(uploadResponse.getBody());
-		} else {
-			log.info("Failed to upload the file. Status code: " + uploadResponse.getStatusCode());
-			return null;
-		}
+		return uploadResponse;
 	}
 
-	public String initiateResumableUpload(String fileName, String parentId) throws Exception {
+	public ResponseEntity<String> initiateResumableUpload(String fileName, String parentId) throws Exception {
 
-		String url = gdriveApiConfig.getResumableUpload();// "https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable";
-		String uploadUrl = null;
+		String url = gdriveApiConfig.getResumableUpload();
 
 		// Prepare metadata for the file to be uploaded
 		ObjectNode metadata = objectMapper.createObjectNode();
@@ -119,16 +103,10 @@ public class GdriveApiCaller {
 
 		ResponseEntity<String> response = restTemplate.postForEntity(url, requestEntity, String.class);
 
-		// The location header contains the upload URL
-		if (response.getStatusCode() == HttpStatus.OK || response.getStatusCode() == HttpStatus.CREATED) {
-			uploadUrl = response.getHeaders().getLocation().toString();
-			return uploadUrl;
-		} else {
-			return null;
-		}
+		return response;
 	}
 
-	public boolean isDocPresentOnGdrive(String docName, String folderId) {
+	public ResponseEntity<String> isDocPresentOnGdrive(String docName, String folderId) {
 		// TODO Auto-generated method stub
 		// Retrieve base URL from config
 		String url = gdriveApiConfig.getListSubfolders(); // "https://www.googleapis.com/drive/v3/files"
@@ -151,16 +129,7 @@ public class GdriveApiCaller {
 		// Call the API
 		ResponseEntity<String> response = restTemplate.exchange(finalUrl, HttpMethod.GET, requestEntity, String.class);
 
-		// Check the response and determine if the document exists
-		if (response.getStatusCode().is2xxSuccessful()) {
-			// Parse the response body
-			String responseBody = response.getBody();
-			// Check if the document is present in the response
-			return responseBody != null && responseBody.contains(docName);
-		} else {
-			log.error("Failed to check document presence: " + response.getStatusCode());
-			return false; // Return false if the API call was unsuccessful
-		}
+		return response;
 
 	}
 

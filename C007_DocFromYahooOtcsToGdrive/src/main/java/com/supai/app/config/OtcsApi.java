@@ -9,8 +9,8 @@ import lombok.Data;
 @ConfigurationProperties(prefix = "otcs.api")
 @Data
 public class OtcsApi {
-	private String nodeProperty;
+	private String baseUrl;
 	private String getDoc;
 	private String searchDocs;
-	private String nodeCategory;
 }
+

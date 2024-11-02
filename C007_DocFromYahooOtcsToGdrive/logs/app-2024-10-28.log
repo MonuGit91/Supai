@@ -1,0 +1,92 @@
+2024-10-28 10:43:11 INFO  - Starting Application using Java 21.0.3 with PID 18820 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-28 10:43:11 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:43:12 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-28 10:43:12 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-28 10:43:12 INFO  - Starting service [Tomcat]
+2024-10-28 10:43:12 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28 10:43:12 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:43:12 INFO  - Root WebApplicationContext: initialization completed in 1454 ms
+2024-10-28 10:43:13 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-28 10:43:13 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-28 10:43:13 INFO  - Started Application in 2.618 seconds (process running for 3.577)
+2024-10-28 10:45:55 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:45:55 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:45:55 INFO  - Completed initialization in 2 ms
+2024-10-28 10:48:44 ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.path(String)" because "searched" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.path(String)" because "searched" is null
+	at com.supai.app.services.gdrive.GdriveUploaderService.parseAndUpload(GdriveUploaderService.java:47)
+	at com.supai.app.services.gdrive.GdriveUploaderService.upload(GdriveUploaderService.java:41)
+	at com.supai.app.controllers.GdriveController.upload(GdriveController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-28 10:49:46 INFO  - Starting Application using Java 21.0.3 with PID 22804 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-28 10:49:46 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 10:49:47 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-28 10:49:47 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-28 10:49:47 INFO  - Starting service [Tomcat]
+2024-10-28 10:49:47 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28 10:49:47 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-28 10:49:47 INFO  - Root WebApplicationContext: initialization completed in 1341 ms
+2024-10-28 10:49:47 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-28 10:49:48 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-28 10:49:48 INFO  - Started Application in 2.334 seconds (process running for 2.989)
+2024-10-28 10:49:53 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28 10:49:53 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-28 10:49:53 INFO  - Completed initialization in 1 ms
+2024-10-28 18:51:20 INFO  - Starting Application using Java 21.0.3 with PID 2592 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C006_DocFromYahooOtcsToGdrive)
+2024-10-28 18:51:20 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-28 18:51:21 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-28 18:51:21 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-28 18:51:21 INFO  - Starting service [Tomcat]
+2024-10-28 18:51:21 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-28 18:51:21 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-28 18:51:21 INFO  - Root WebApplicationContext: initialization completed in 1263 ms
+2024-10-28 18:51:22 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-28 18:51:22 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-28 18:51:22 INFO  - Started Application in 2.217 seconds (process running for 2.911)

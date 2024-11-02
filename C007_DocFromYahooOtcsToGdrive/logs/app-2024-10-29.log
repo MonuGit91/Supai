@@ -1,0 +1,145 @@
+2024-10-29 14:26:12 INFO  - Starting Application using Java 21.0.3 with PID 1156 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-29 14:26:12 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-29 14:26:13 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-29 14:26:13 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-29 14:26:13 INFO  - Starting service [Tomcat]
+2024-10-29 14:26:13 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-29 14:26:13 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-29 14:26:13 INFO  - Root WebApplicationContext: initialization completed in 1616 ms
+2024-10-29 14:26:14 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-29 14:26:14 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-29 14:26:14 INFO  - Started Application in 2.84 seconds (process running for 3.553)
+2024-10-29 14:26:26 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-29 14:26:26 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-29 14:26:26 INFO  - Completed initialization in 1 ms
+2024-10-29 14:26:27 INFO  - Success: searching docs successfull
+2024-10-29 14:26:27 INFO  - Success: doc downloaded: Test Document1.docx
+2024-10-29 14:26:27 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-29 14:26:29 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:26:29 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:26:30 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-29 14:26:31 INFO  - Success: doc downloaded: Demo
+2024-10-29 14:26:31 INFO  - Success: Document downloaded successfully: Demo
+2024-10-29 14:26:31 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:26:31 INFO  - Success: Folder IT already exist: 
+2024-10-29 14:26:32 INFO  - Success: checking doc: Demo exist or not
+2024-10-29 14:26:32 INFO  - Success: doc downloaded: Test Document.docx
+2024-10-29 14:26:32 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-29 14:26:33 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:26:33 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:26:34 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-29 14:26:35 INFO  - Success: doc downloaded: pic
+2024-10-29 14:26:35 INFO  - Success: Document downloaded successfully: pic
+2024-10-29 14:26:36 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:26:36 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:26:37 INFO  - Success: checking doc: pic exist or not
+2024-10-29 14:26:43 INFO  - Success: doc downloaded: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 14:26:43 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 14:26:44 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:26:44 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:26:45 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-29 14:33:01 INFO  - Success: searching docs successfull
+2024-10-29 14:33:01 INFO  - Success: doc downloaded: Test Document1.docx
+2024-10-29 14:33:01 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-29 14:33:03 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:33:03 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:33:03 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-29 14:33:04 INFO  - Success: doc downloaded: Demo
+2024-10-29 14:33:04 INFO  - Success: Document downloaded successfully: Demo
+2024-10-29 14:33:05 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:33:05 INFO  - Success: Folder IT already exist: 
+2024-10-29 14:33:06 INFO  - Success: checking doc: Demo exist or not
+2024-10-29 14:33:06 INFO  - Success: doc downloaded: Test Document.docx
+2024-10-29 14:33:06 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-29 14:33:07 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:33:07 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:33:08 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-29 14:33:38 INFO  - Success: doc downloaded: TDS-Creation_V2.pdf
+2024-10-29 14:33:38 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-29 14:33:39 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:33:41 INFO  - Success: created Folder(Content & Royalties)
+2024-10-29 14:33:42 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-29 14:33:43 INFO  - Success: got upload url for doc: TDS-Creation_V2.pdf
+2024-10-29 14:34:10 INFO  - Success: uplading doc: TDS-Creation_V2.pdf
+2024-10-29 14:34:11 INFO  - Success: doc downloaded: pic
+2024-10-29 14:34:11 INFO  - Success: Document downloaded successfully: pic
+2024-10-29 14:34:12 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:34:12 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:34:13 INFO  - Success: checking doc: pic exist or not
+2024-10-29 14:34:20 INFO  - Success: doc downloaded: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 14:34:20 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 14:34:21 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 14:34:21 INFO  - Success: Folder Software already exist: 
+2024-10-29 14:34:22 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not
+2024-10-29 15:23:27 INFO  - Starting Application using Java 21.0.3 with PID 20300 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-29 15:23:27 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-29 15:23:28 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-29 15:23:28 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-29 15:23:28 INFO  - Starting service [Tomcat]
+2024-10-29 15:23:28 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-29 15:23:28 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-29 15:23:28 INFO  - Root WebApplicationContext: initialization completed in 1083 ms
+2024-10-29 15:23:29 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-29 15:23:29 WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-29 15:23:29 INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-29 15:23:29 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-29 15:23:44 INFO  - Starting Application using Java 21.0.3 with PID 22336 (D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive\target\classes started by supai in D:\MonuChoudhary\PlayGround\SupaiInfotechProject\Yahoo_OTCS_FileOrganizer\C007_DocFromYahooOtcsToGdrive)
+2024-10-29 15:23:44 INFO  - No active profile set, falling back to 1 default profile: "default"
+2024-10-29 15:23:45 INFO  - Tomcat initialized with port 8080 (http)
+2024-10-29 15:23:45 INFO  - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-29 15:23:45 INFO  - Starting service [Tomcat]
+2024-10-29 15:23:45 INFO  - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-29 15:23:45 INFO  - Initializing Spring embedded WebApplicationContext
+2024-10-29 15:23:45 INFO  - Root WebApplicationContext: initialization completed in 1159 ms
+2024-10-29 15:23:45 INFO  - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-29 15:23:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-10-29 15:23:45 INFO  - Started Application in 2.037 seconds (process running for 2.757)
+2024-10-29 15:24:07 INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-29 15:24:07 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-10-29 15:24:07 INFO  - Completed initialization in 0 ms
+2024-10-29 15:24:08 INFO  - Success: searching docs successfull
+2024-10-29 15:24:08 INFO  - Success: doc downloaded: Test Document1.docx
+2024-10-29 15:24:08 INFO  - Success: Document downloaded successfully: Test Document1.docx
+2024-10-29 15:24:11 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:11 INFO  - Success: Folder Software already exist: 
+2024-10-29 15:24:11 INFO  - Success: checking doc: Test Document1.docx exist or not
+2024-10-29 15:24:12 INFO  - Success: doc downloaded: Demo
+2024-10-29 15:24:12 INFO  - Success: Document downloaded successfully: Demo
+2024-10-29 15:24:12 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:12 INFO  - Success: Folder IT already exist: 
+2024-10-29 15:24:13 INFO  - Success: checking doc: Demo exist or not
+2024-10-29 15:24:13 INFO  - Success: doc downloaded: Test Document.docx
+2024-10-29 15:24:13 INFO  - Success: Document downloaded successfully: Test Document.docx
+2024-10-29 15:24:14 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:14 INFO  - Success: Folder Software already exist: 
+2024-10-29 15:24:15 INFO  - Success: checking doc: Test Document.docx exist or not
+2024-10-29 15:24:43 INFO  - Success: doc downloaded: TDS-Creation_V2.pdf
+2024-10-29 15:24:43 INFO  - Success: Document downloaded successfully: TDS-Creation_V2.pdf
+2024-10-29 15:24:44 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:44 INFO  - Success: Folder Content & Royalties already exist: 
+2024-10-29 15:24:44 INFO  - Success: checking doc: TDS-Creation_V2.pdf exist or not
+2024-10-29 15:24:46 INFO  - Success: doc downloaded: pic
+2024-10-29 15:24:46 INFO  - Success: Document downloaded successfully: pic
+2024-10-29 15:24:47 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:47 INFO  - Success: Folder Software already exist: 
+2024-10-29 15:24:47 INFO  - Success: checking doc: pic exist or not
+2024-10-29 15:24:54 INFO  - Success: doc downloaded: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 15:24:54 INFO  - Success: Document downloaded successfully: SOAR Functional Design - xECM SF OpenText S012.docx
+2024-10-29 15:24:55 INFO  - Success: fetched sub folders of root folder: 1nbvePO9j8tDJCyiPDLt1JoeCEG5fxjnh
+2024-10-29 15:24:55 INFO  - Success: Folder Software already exist: 
+2024-10-29 15:24:55 INFO  - Success: checking doc: SOAR Functional Design - xECM SF OpenText S012.docx exist or not

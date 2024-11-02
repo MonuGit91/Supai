@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Data
-@ConfigurationProperties(prefix = "otcs.credentials")
 @Component
+@ConfigurationProperties(prefix = "otcs.credentials")
 public class OtcsCredentials {
     private String authApi;
     private String username;
